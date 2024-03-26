@@ -1,0 +1,7 @@
+eureka:
+  client:
+    register-with-eureka: false # registered as a server
+    fetch-registry: false # suggesting client to load registry for values of ip and port details while sending REST req
+
+server:
+  port: 8761
